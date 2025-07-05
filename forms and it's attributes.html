@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form and attributest</title>
+</head>
+
+<body>
+    <form method="post" target="_self" autocomplete="on">
+        <fieldset>
+            <legend>Form fieldset</legend>
+            <label for="color">Choose your colour:</label>
+            <input type="color" value="#7E84F7">
+            <br><br>
+            <label for="browser">Choose your browser:</label>
+            <input list="browsers" id="browser" name="browser">
+            <datalist id="browsers">
+                <option value="Chrome"></option>
+                <option value="Edge"></option>
+            </datalist>
+
+        </fieldset>
+    </form>
+</body>
+
+</html>
